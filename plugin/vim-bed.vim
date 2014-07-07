@@ -54,7 +54,7 @@ augroup vimrcEx
   \ endif
 
   " These languages and markups use 2 spaces
-  autocmd FileType ruby,haml,eruby,yaml,sass,cucumber,vim set ai sw=2 sts=2 et
+  autocmd FileType ruby,haml,eruby,yaml,sass,cucumber,vim,lua set ai sw=2 sts=2 et
   " but these ones use 4 (yes javascript is 4 spaces. I will not accept 2)
   autocmd FileType python,javascript,html set sw=4 sts=4 et
 
